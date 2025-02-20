@@ -34,6 +34,14 @@ def marty(spins, balance, stake, bet_type):
         winners = reds
     elif bet_type == "blacks":
         winners = blacks
+    elif bet_type == "evens":
+        winners = evens
+    elif bet_type == "odds":
+        winners = odds
+    elif bet_type == "highs":
+        winners = highs
+    elif bet_type == "lows":
+        winners = lows
     
 
     for i in range(spins):
